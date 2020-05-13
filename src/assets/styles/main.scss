@@ -1,0 +1,105 @@
+@import './variables.scss';
+
+h1, h2, h3 {
+text-transform: uppercase;
+font-weight: normal;
+text-align: center;
+color: $dark-primary;
+}
+
+h1 {
+  padding: 20px;
+  margin: 0;
+  font-family: $heading-text;
+}
+
+header {
+  position: relative;
+  height: 12vh;
+}
+
+legend {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $dark-grey;
+  font-family: $normal-text;
+}
+  
+ul {
+  padding-inline-start: 0;
+  margin: 16px;
+}
+  
+li {
+  list-style: none;
+}
+  
+a {
+  color: $dark-accent;
+}
+
+fieldset {
+  border: none;
+}
+
+::placeholder, input[type=text] {
+  font-family: $normal-text;
+}
+
+input, select {
+  border: none;
+  border-bottom: solid black 1px;
+  margin: 3px;
+  outline: none;
+}
+
+input {
+  background-color: transparent;
+}
+
+input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus, 
+  input:-webkit-autofill:active  {
+  -webkit-box-shadow: 0 0 0 30px $primary inset;
+}
+
+textarea {
+  outline: none;
+  border-radius: 7px;
+}
+
+.text_warning {
+  color: $warning;
+}
+
+button[type=submit] {
+  display: flex;
+  margin: 20px auto;
+  border: none;
+  border-radius: 20px;
+  background-color: $accent;
+  padding: 8px 15px;
+  outline: none;
+  font-family: $heading-text;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button[type=submit]:active {
+  background-color: $dark-accent;
+}
+
+.page_content {
+  padding: 10px 0 40px 0;
+}
+
+.content_box {
+  background-color: $light-primary;
+  padding: 20px 10px;
+}
