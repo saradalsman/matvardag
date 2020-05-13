@@ -1,6 +1,7 @@
 # matvardag
 
 > A Vue.js project
+
 > Mobile first design, please adjust window size
 
 ## Build Setup
