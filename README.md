@@ -10,13 +10,11 @@
 # install dependencies
 npm install
 
-#start server
+# start server in terminal 1
 node server.js
 
-# serve with hot reload at localhost:8081
+# serve with hot reload at localhost:8081 in terminal 2
 npm run dev
 
-# build for production with minification
-npm run build
 
 ```
