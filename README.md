@@ -16,5 +16,18 @@ node server.js
 # serve with hot reload at localhost:8081 in terminal 2
 npm run dev
 
-
 ```
+
+## Screenshots
+
+Home page when logged in
+
+![Home page](./screenshots/Startsida.JPG)
+
+Add recipe page
+
+![Add recipe page](./screenshots/Recept.JPG)
+
+Menu page
+
+![Menu page](./screenshots/Meny.JPG)
